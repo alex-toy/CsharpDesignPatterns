@@ -1,4 +1,4 @@
-﻿namespace FactoryPattern.Vehicles
+﻿namespace FactoryPattern.Models
 {
     public class Vehicle
     {

@@ -1,6 +1,6 @@
 ﻿namespace FactoryPattern.Vehicles
 {
-    public class ElectricalVehicle
+    public class ElectricalVehicleCatalog : IVehicleCatalog
     {
         public Vehicle[] GetVehicles()
         {

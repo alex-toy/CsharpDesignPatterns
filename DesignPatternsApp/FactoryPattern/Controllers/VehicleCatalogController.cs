@@ -1,3 +1,4 @@
+using FactoryPattern.Models;
 using FactoryPattern.Vehicles;
 using Microsoft.AspNetCore.Mvc;
 
@@ -7,17 +8,17 @@ namespace FactoryPattern.Controllers
     [Route("api/[controller]")]
     public class VehicleCatalogController : ControllerBase
     {
-        private readonly IVehiculeCatalog _vehiculeCatalog;
+        private readonly IVehicleCatalogFactory _vehiculeCatalogFactory;
 
-        public VehicleCatalogController(IVehiculeCatalog vehiculeCatalog)
+        public VehicleCatalogController(IVehicleCatalogFactory vehiculeCatalogFactory)
         {
-            _vehiculeCatalog = vehiculeCatalog;
+            _vehiculeCatalogFactory = vehiculeCatalogFactory;
         }
 
         [HttpGet]
         public IEnumerable<Vehicle> Get(string type)
         {
-            return null;
+            return _vehiculeCatalogFactory.CreateCatalog(type).GetVehicles();
         }
     }
 }
