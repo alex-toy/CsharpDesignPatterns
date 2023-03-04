@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlyweightPattern", "Flyweig
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsability", "ChainOfResponsability\ChainOfResponsability.csproj", "{0AB25A87-A6D9-40D8-9FEA-ADDD432B7397}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterator", "Iterator\Iterator.csproj", "{282DF8DA-DC89-491D-B5D8-AB6A70491EE4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{0AB25A87-A6D9-40D8-9FEA-ADDD432B7397}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0AB25A87-A6D9-40D8-9FEA-ADDD432B7397}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0AB25A87-A6D9-40D8-9FEA-ADDD432B7397}.Release|Any CPU.Build.0 = Release|Any CPU
+		{282DF8DA-DC89-491D-B5D8-AB6A70491EE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{282DF8DA-DC89-491D-B5D8-AB6A70491EE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{282DF8DA-DC89-491D-B5D8-AB6A70491EE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{282DF8DA-DC89-491D-B5D8-AB6A70491EE4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

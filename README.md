@@ -50,5 +50,8 @@ The **flyweight** design pattern is a **structural** design pattern. The main in
 
 The **Chain of Responsibility** pattern is a **Behavioral** design pattern. The main intent of the pattern is to avoid coupling between the sender of a request and its receiver by giving more than one object a chance to handle the request.
 
-<img src="/pictures/chain_of_responsibility.png" title="Chain of Responsibility"  width="800">
+
+## Iterator
+
+**Iterator** pattern is a **Behavioral** design pattern. The main intent of the pattern is to provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
 
