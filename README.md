@@ -67,5 +67,12 @@ The **observer** pattern is a **Behavioral** design pattern. The main intent of 
 
 The **adapter** pattern is a **structural** design pattern. The main intent of the pattern is to allow two classes to work together which will not otherwise be due to incompatible contracts.
 
-<img src="/pictures/adapter.png" title="adapter"  width="500">
+<img src="/pictures/adapter.png" title="adapter"  width="800">
+
+
+## Bridge
+
+The **bridge** pattern is a **structural** design pattern. The main intent of the pattern is to decouple an abstraction from its implementation so that they can vary independently. When using the SOLID design patterns properly, you will probably end up implementing bridge "out of the box".
+
+<img src="/pictures/bridge.png" title="bridge"  width="800">
 
