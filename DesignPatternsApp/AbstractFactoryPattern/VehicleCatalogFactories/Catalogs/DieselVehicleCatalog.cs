@@ -1,7 +1,6 @@
 ﻿using FactoryPattern.Models;
-using FactoryPattern.Vehicles;
 
-namespace FactoryPattern.VehicleCatalogFactory.Catalogs
+namespace AbstractFactoryPattern.VehicleCatalogFactories.Catalogs
 {
     public class DieselVehicleCatalog : IVehicleCatalog
     {
