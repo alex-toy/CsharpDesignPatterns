@@ -28,10 +28,12 @@ The **Builder** design pattern is one of the **creational** design patterns. It 
 
 ## Decorator Pattern
 
-The **decorator** pattern is a structural design pattern. The main intent of the pattern is to attach additional responsibility to an object dynamically. An alternative to subclassing. I solves the problem of adding functionalities to a class without adding concrete changes to that class.
+The **decorator** pattern is a structural design pattern. The main intent of the pattern is to attach additional responsibility to an object dynamically. It is an alternative to subclassing. It solves the problem of adding functionalities to a class without adding concrete changes to that class.
+
+<img src="/pictures/decorator.png" title="decorator"  width="800">
 
 
 ## Facade Pattern
 
-The **facade** pattern is a **structural** design pattern. The main intent of the pattern is to provide a unified interface instead of exposing a set of interfaces in a subsystem.
+The **facade** pattern is a **structural** design pattern. The main intent of the pattern is to provide a unified interface instead of exposing a set of interfaces in a subsystem. Facade defines a high-level interface that makes the underlying services easier to use.
 
