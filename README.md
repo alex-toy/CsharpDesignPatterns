@@ -37,3 +37,8 @@ The **decorator** pattern is a structural design pattern. The main intent of the
 
 The **facade** pattern is a **structural** design pattern. The main intent of the pattern is to provide a unified interface instead of exposing a set of interfaces in a subsystem. Facade defines a high-level interface that makes the underlying services easier to use.
 
+
+## Flyweight Pattern
+
+The **flyweight** design pattern is a **structural** design pattern. The main intent of this design pattern is to use sharing to support large number of fine grained objects efficiently.
+
