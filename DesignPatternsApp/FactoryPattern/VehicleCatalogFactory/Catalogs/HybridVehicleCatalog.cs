@@ -1,4 +1,6 @@
-﻿namespace FactoryPattern.Vehicles
+﻿using FactoryPattern.Models;
+
+namespace FactoryPattern.Vehicles
 {
     public class HybridVehicleCatalog : IVehicleCatalog
     {
