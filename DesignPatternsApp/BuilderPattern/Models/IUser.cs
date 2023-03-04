@@ -1,11 +1,9 @@
-﻿using System;
-
-namespace PrototypePattern.Models
+﻿namespace PrototypePattern.Models
 {
-    public interface IUser : ICloneable
+    public interface IUser
     {
-        string Name { get; }
-        int Age{ set; } 
         string Address { get; }
+        int Age { get; }
+        string Name { get; }
     }
 }

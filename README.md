@@ -21,7 +21,7 @@ The **Prototype** design pattern is one of the **creational** design patterns. I
 
 ## Builder Pattern
 
-The **Builder** design pattern is one of the **creational** design patterns. It is used in scenarios where the creation of an object becomes complex.
+The **Builder** design pattern is one of the **creational** design patterns. It is used in scenarios where the creation of an object becomes complex. You want to keep the **immutability** of an object and at the same time, be able to create the object with different set of attributes on different kinds of scenarios.
 
 <img src="/pictures/builder.png" title="builder"  width="800">
 

@@ -9,7 +9,11 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddSingleton<IUser>(new User("alex", "France"));
+User user = new User.UserBuilder()
+    .WithName("alex")
+    .WithAge(42)
+    .Build();
+builder.Services.AddSingleton<IUser>(user);
 
 var app = builder.Build();
 

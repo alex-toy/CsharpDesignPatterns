@@ -13,7 +13,7 @@ namespace PrototypePattern.Controllers
         public UserController(ILogger<UserController> logger, IUser user)
         {
             _logger = logger;
-            _user = user.Clone() as IUser;
+            _user = user;
         }
 
         [HttpGet(Name = "GetUser")]

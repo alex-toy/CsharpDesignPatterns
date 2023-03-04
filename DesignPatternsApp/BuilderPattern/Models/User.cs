@@ -6,20 +6,44 @@
         private int age;
         private string address;
 
+        public string Name => name;
+        public int Age => age;
+        public string Address => address;
 
-        public string Name { get { return name;  } }
-        public int Age { set { age = value; } }
-        public string Address { get { return address; } }
+        private User() { }
 
-        public User(string name, string address)
+
+        public class UserBuilder
         {
-            this.name = name;
-            this.address = address;
-        }
+            private readonly User user;
 
-        public object Clone()
-        {
-            return this.MemberwiseClone();
+            public UserBuilder()
+            {
+                user = new User();
+            }
+
+            public UserBuilder WithName(string name)
+            {
+                user.name = name;
+                return this;
+            }
+
+            public UserBuilder WithAge(int age)
+            {
+                user.age = age;
+                return this;
+            }
+
+            public UserBuilder WithAddress(string address)
+            {
+                user.address = address;
+                return this;
+            }
+
+            public User Build()
+            {
+                return user;
+            }
         }
     }
 }
