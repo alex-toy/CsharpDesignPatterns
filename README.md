@@ -42,3 +42,13 @@ The **facade** pattern is a **structural** design pattern. The main intent of th
 
 The **flyweight** design pattern is a **structural** design pattern. The main intent of this design pattern is to use sharing to support large number of fine grained objects efficiently.
 
+<img src="/pictures/flyweight.png" title="flyweight"  width="800">
+<img src="/pictures/flyweight2.png" title="flyweight"  width="800">
+
+
+## Chain Of Responsibility
+
+The **Chain of Responsibility** pattern is a **Behavioral** design pattern. The main intent of the pattern is to avoid coupling between the sender of a request and its receiver by giving more than one object a chance to handle the request.
+
+<img src="/pictures/chain_of_responsibility.png" title="Chain of Responsibility"  width="800">
+
