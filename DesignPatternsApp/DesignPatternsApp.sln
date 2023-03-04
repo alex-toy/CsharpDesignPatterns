@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsability", "Ch
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterator", "Iterator\Iterator.csproj", "{282DF8DA-DC89-491D-B5D8-AB6A70491EE4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverPattern", "ObserverPattern\ObserverPattern.csproj", "{84A2B360-FD5A-40E9-A233-B3B7A1BF47EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{282DF8DA-DC89-491D-B5D8-AB6A70491EE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{282DF8DA-DC89-491D-B5D8-AB6A70491EE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{282DF8DA-DC89-491D-B5D8-AB6A70491EE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84A2B360-FD5A-40E9-A233-B3B7A1BF47EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84A2B360-FD5A-40E9-A233-B3B7A1BF47EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84A2B360-FD5A-40E9-A233-B3B7A1BF47EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84A2B360-FD5A-40E9-A233-B3B7A1BF47EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

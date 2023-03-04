@@ -55,3 +55,10 @@ The **Chain of Responsibility** pattern is a **Behavioral** design pattern. The 
 
 **Iterator** pattern is a **Behavioral** design pattern. The main intent of the pattern is to provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
 
+
+## Observer
+
+The **observer** pattern is a **Behavioral** design pattern. The main intent of the pattern is to define a one-to-many dependency between objects so that when one object changes its state, all objects dependent on it are notified automatically.
+
+<img src="/pictures/observer.png" title="observer"  width="800">
+
