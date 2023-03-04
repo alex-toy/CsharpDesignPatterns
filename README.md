@@ -60,5 +60,12 @@ The **Chain of Responsibility** pattern is a **Behavioral** design pattern. The 
 
 The **observer** pattern is a **Behavioral** design pattern. The main intent of the pattern is to define a one-to-many dependency between objects so that when one object changes its state, all objects dependent on it are notified automatically.
 
-<img src="/pictures/observer.png" title="observer"  width="800">
+<img src="/pictures/observer.png" title="observer"  width="500">
+
+
+## Adapter
+
+The **adapter** pattern is a **structural** design pattern. The main intent of the pattern is to allow two classes to work together which will not otherwise be due to incompatible contracts.
+
+<img src="/pictures/adapter.png" title="adapter"  width="500">
 
