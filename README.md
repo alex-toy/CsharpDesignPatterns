@@ -74,5 +74,8 @@ The **adapter** pattern is a **structural** design pattern. The main intent of t
 
 The **bridge** pattern is a **structural** design pattern. The main intent of the pattern is to decouple an abstraction from its implementation so that they can vary independently. When using the SOLID design patterns properly, you will probably end up implementing bridge "out of the box".
 
-<img src="/pictures/bridge.png" title="bridge"  width="800">
+
+## Visitor
+
+The **visitor** pattern is a **Behavioral** design pattern. The main intent of the pattern is to represent an operation to be performed on the elements of an object structure. Visitor lets us define a new operation without changing the classes of the elements on which it operates.
 
