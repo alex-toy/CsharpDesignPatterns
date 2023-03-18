@@ -1,5 +1,11 @@
 # C# Design Patterns
 
+
+## Strategy Pattern
+
+A **strategy** pattern is a **Behavioral** design pattern. Its main intent is to define a family of algorithms, encapsulate each one so that they are easily interchangeable. This allows the algorithm to vary independently of the client using the algorithm.
+
+
 ## Factory Pattern
 
 <img src="/pictures/factory.png" title="factory"  width="800">
@@ -14,7 +20,7 @@
 
 ## Prototype Pattern
 
-The **Prototype** design pattern is one of the **creational** design patterns. Iy is very useful in scenarios where the creation of an object can become expensive.
+The **Prototype** design pattern is one of the **creational** design patterns. It is very useful in scenarios where the creation of an object can become expensive.
 
 <img src="/pictures/prototype.png" title="prototype"  width="800">
 
