@@ -1,6 +1,11 @@
 # C# Design Patterns
 
 
+## Template Pattern
+
+The **Template** method pattern is a **behavioral** design pattern. The main intent of the pattern is to define the skeleton of an algorithm in an operation, deferring the implementation of some steps to the subclasses. Template Method lets subclass redefine certain steps of an algorithm without changing the structure of the algorithm.
+
+
 ## Strategy Pattern
 
 A **strategy** pattern is a **Behavioral** design pattern. Its main intent is to define a family of algorithms, encapsulate each one so that they are easily interchangeable. This allows the algorithm to vary independently of the client using the algorithm.
